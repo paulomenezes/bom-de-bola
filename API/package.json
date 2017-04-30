@@ -1,0 +1,17 @@
+{
+  "name": "bom-de-bola",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paulo Menezes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.11.2",
+    "mongoose": "^4.0.8",
+    "multer": "~0.1.6"
+  }
+}

@@ -1,0 +1,99 @@
+{
+	"metadados": {
+		"cabecalho": {
+			"titulo": "Recife Bom de Bola",
+			"descricao": "O Recife Bom de Bola cria, pela primeira vez, um incentivo direto Ã  participaÃ§Ã£o e revelaÃ§Ã£o de talentos. Os 11 melhores jogadores da categoria Sub-17 serÃ£o contratados pela FederaÃ§Ã£o Pernambucana de Futebol (FPF) e emprestados a clubes da primeira divisÃ£o do Campeonato Pernambucano de 2014, ganhando oportunidade concreta de vencer na vida por meio do futebol.",
+			"categoria_vcge": "http://vocab.e.gov.br/id/governo#esporte-comunitario",
+			"fonte_dados": "http://dados.recife.pe.gov.br",
+			"licenca": "Open Database License (ODbL)",
+			"responsavel_dados": "Secretaria de Esportes",
+			"responsavel_disponibilizar": "Emprel",
+			"frequencia_atualizacao": "Anual",
+			"endereco_dataset": "http://dados.recife.pe.gov.br/dataset/recife-bom-de-bola",
+			"status": "ativo",
+			"endereco_dataset_substituto": "",
+			"granularidade": "Estes dados Contem informações do projeto Recife Bom de Bola",
+			"etiquetas": "esporte, inclusão social, Lazer"
+		},
+		"recursos": [
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/recife-bom-de-bola/resource/d1121f92-bae2-4702-ae71-d844ae2a0120",
+				"titulo": "Equipes participantes 2014",
+				"formato": "csv",
+				"descricao": "Cartões sofridos durante o jogos do Recife bom de bola"
+			}
+		],
+		"campos": [
+			{
+				"codigo": "RPA_EQUIPE",
+				"descricao": "Região Politico Administrativa",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "MODALIDADE_EQUIPE",
+				"descricao": "Modalidade das equipes",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "NOME_EQUIPE",
+				"descricao": "Nome da equipe",
+				"tipo": "Char",
+				"tamanho": 150,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "REPRESENTANTE_EQUIPE",
+				"descricao": "Nome do representante da equipe",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "TECNICO",
+				"descricao": "Nome do técnico do time",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "NOME_JOGADOR",
+				"descricao": "Nome do Jogador",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "NUMERO_JOGADOR",
+				"descricao": "Número do Jogador",
+				"tipo": "Num",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "BAIRRO_JOGADOR",
+				"descricao": "Bairro do Jogador",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "CIDADE_JOGADOR",
+				"descricao": "Cidade do Jogador",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "DTNASCIMENTO_JOGADOR",
+				"descricao": "Data de Nascimento do Jogador",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="16dp"
+    android:padding="0dp"
+    android:background="@drawable/card_background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/championship"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aberto Feminino"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#EEE"/>
+        <TableLayout
+            android:layout_margin="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:id="@+id/time01"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Clube Nautico Capibaribe A" />
+                <TextView
+                    android:id="@+id/info"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="9:00 AM"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:id="@+id/time02"
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Revelacao FCF" />
+            </TableRow>
+        </TableLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#EEE"/>
+        <RelativeLayout
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/date"
+                android:text="Sábado, 01/08"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:paddingRight="0dp"
+                android:id="@+id/seeChampionships"
+                android:layout_alignParentRight="true"
+                android:text="Ver tabela"
+                android:textColor="@color/primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Base.Widget.AppCompat.Button.Borderless" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

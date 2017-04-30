@@ -1,0 +1,64 @@
+{
+	"metadados": {
+		"cabecalho": {
+			"titulo": "Recife Bom de Bola",
+			"descricao": "O Recife Bom de Bola cria, pela primeira vez, um incentivo direto à participação e revelação de talentos. Os 11 melhores jogadores da categoria Sub-17 serão contratados pela Federação Pernambucana de Futebol (FPF) e emprestados a clubes da primeira divisão do Campeonato Pernambucano de 2014, ganhando oportunidade concreta de vencer na vida por meio do futebol.",
+			"categoria_vcge": "http://vocab.e.gov.br/id/governo#esporte-comunitario",
+			"fonte_dados": "http://dados.recife.pe.gov.br",
+			"licenca": "Open Database License (ODbL)",
+			"responsavel_dados": "Secretaria de Esportes",
+			"responsavel_disponibilizar": "Emprel",
+			"frequencia_atualizacao": "Anual",
+			"endereco_dataset": "http://dados.recife.pe.gov.br/dataset/recife-bom-de-bola",
+			"status": "ativo",
+			"endereco_dataset_substituto": "",
+			"granularidade": "Estes dados Contém informações do projeto Recife Bom de Bola",
+			"etiquetas": "esporte, inclusão social, Lazer"
+		},
+		"recursos": [
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/recife-bom-de-bola/resource/3838af9e-2c53-4cad-9716-e6ca76f1908f",
+				"titulo": "Equipes participantes 2014",
+				"formato": "csv",
+				"descricao": "Cartões sofridos durante o jogos do Recife bom de bola"
+			}
+		],
+		"campos": [
+			{
+				"codigo": "rpa",
+				"descricao": "Região Politico Administrativa",
+				"tipo": "Num",
+				"tamanho": 40,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "categoria",
+				"descricao": "Categoria do Campeonato",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "equipe",
+				"descricao": "Nome da equipe",
+				"tipo": "Char",
+				"tamanho": 150,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "cartao_amarelo",
+				"descricao": "Quantidade de cartões amarelos recebidos",
+				"tipo": "Num",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "cartao_vermelho",
+				"descricao": "Quantidade de cartões vermelhos recebidos",
+				"tipo": "Num",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			}
+		]
+	}
+}

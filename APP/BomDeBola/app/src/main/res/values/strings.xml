@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Bom de Bola</string>
+
+    <string name="title_section1">Inicio</string>
+    <string name="title_section2">Jogos</string>
+    <string name="title_section3">Campeonatos</string>
+    <string name="title_section4">Jogadores</string>
+    <string name="title_section5">Gerenciamento</string>
+    <string name="title_section6">Times</string>
+    <string name="title_section7">Campos</string>
+    <string name="title_section8">Perfil</string>
+
+    <string name="msg_error">Houve um error, tente novamente</string>
+    <string name="msg_loading">Caregando, aguarde...</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="facebook_app_id">1473752572938943</string>
+    <string name="title_activity_post_add">Publicar</string>
+    <string name="title_activity_post_view">PostViewActivity</string>
+    <string name="title_activity_find_place">Selecionar local</string>
+    <string name="title_activity_games">Jogos</string>
+    <string name="title_activity_championships">Campeonatos</string>
+    <string name="title_activity_players">Jogadores</string>
+    <string name="title_activity_manager">Gerenciamento</string>
+    <string name="title_activity_teams">Times</string>
+    <string name="title_activity_fields">Campos</string>
+    <string name="title_activity_profile">Perfil</string>
+    <string name="title_activity_field">Campos</string>
+    <string name="title_activity_championship_add">Adicionar campeonato</string>
+    <string name="title_activity_team">Time</string>
+    <string name="title_activity_game">Partida</string>
+    <string name="title_activity_start_game">Iniciar uma partida</string>
+    <string name="title_activity_control_game">Gerenciar Partida</string>
+    <string name="title_activity_championship">Campeonatos</string>
+</resources>
